@@ -7,20 +7,27 @@
 body{
   width: 100%;
   min-height: 100vh;
-  background-color: #F2F2F2;
+  /* background-color: #F2F2F2; */
+  background-image: url(./wood-411643_960_720.jpg);
 }
-a{
+/* a{
   color: unset;
   text-decoration: none;
-}
+} */
 input{
   outline: none;
-  font-size: 18px;
+  border: none;
+  height: 30px;
+  padding: 0 10px;
+  font-size: 15px;
+  border-radius: 10px;
   width: 100%;
 }
 button{
   outline: none;
   border: none;
+  border-radius: 10px;
+  /* margin-left: 12px; */
   cursor: pointer;
 }
 
@@ -29,39 +36,44 @@ button{
 .navbar{
   width: 100%;
   padding: 20px 10px;
-  background-color: #000000;
+  background-color: #2f2828;
   display: flex;
   justify-content: space-between;
   position: fixed;
 }
 .navbar h2{
-  background-color: #FD0102;
+  background-color: teal;
   width: fit-content;
   padding: 2px;
 }
 .brand-first-half{
-  margin-right: 2px;
+  /* margin-right: 2px;
+  margin-left: 2px; */
+  margin: 0 2px;
+  color: #2f2828;
 }
 .brand-last-half{
-  background-color: #000000;
-  color: #FD0102;
+  background-color: #2f2828;
+  color: teal;
+  margin: 0 2px;
 
 }
 .navbar button{
   background-color: transparent;
-  color: #FD0102;
-  border: 2px solid #FD0102;
+  color: teal;
+  border: 2px solid teal;
   padding: 5px 10px;
+  border-radius: 10px;
   cursor: pointer;
 }
 .navbar button:hover{
-  background-color: #FD0102;
+  background-color: teal;
   color: white;
 }
 
 /* AlbumsList component style */
 .albums-list{
-  width: 70%;
+  width: 80%;
   margin: auto;
   padding-top: 73px;
   display: flex;
@@ -74,7 +86,8 @@ button{
   width: 310px;
   height: 200px;
   background-color: #478AC9;
-  margin-bottom:5px ;
+  margin-bottom: 20px ;
+  margin-top: 15px;
   color: white;
   padding: 10px;
   display: flex;
@@ -84,6 +97,7 @@ button{
 .list h3{
   text-align: center;
   text-transform: capitalize;
+  color: black;
 }
 .button-group{
   width: 100%;
@@ -94,6 +108,7 @@ button{
   background-color: black;
   color: white;
   border: 0px;
+  border-radius: 10px;
   padding: 10px 20px;
   cursor: pointer;
 }
@@ -104,6 +119,7 @@ button{
 .delete-btn{
   cursor: pointer;
   border: 0px;
+  border-radius: 10px;
   padding: 10px 20px;
   background-color: red;
   color: white;
@@ -115,10 +131,11 @@ button{
 
 /* UpdateAlbum component style */
 .update-album{
-  width: 350px;
+  width: 400px;
   margin: auto;
   padding-top: 73px;
-  color: white;
+  color: black;
+  font-size: 15px;
 }
 .form-container{
   background-color: #478AC9;
@@ -126,19 +143,22 @@ button{
   margin-top: 50px;
 }
 .inp-container{
-  margin: 10px;
+  margin: 15px;
 }
 .form-container button{
   background-color: green;
   padding: 10px 20px;
+  margin-left: 12px;
+  margin-top: 5px;
   color: white;
 }
 
 /* addAlbum container style */
 .addalbum-container{
-  color: white;
-  padding-top: 73px;
-  width: 350px;
+  color: black;
+  font-size: 15px;
+  padding-top: 75px;
+  width: 400px;
   margin: auto;
 }
 .addalbum-form{
@@ -148,6 +168,8 @@ button{
 }
 .addalbum-form button{
   background-color: green;
+  margin-left: 12px;
+  margin-top: 5px;
   padding: 10px 20px;
   color: white;
 }

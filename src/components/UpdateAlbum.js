@@ -23,13 +23,13 @@ const UpdateAlbum = (props) => {
       <Navbar path="/" page="Home" />
       <div className='update-album'>
         <div className='form-container'>
-          <h4>Title : {props.album.title}</h4>
+          <h3>Title : {props.album.title}</h3>
           <div className='inp-container'>
             Enter New Title :
             <input type="text" id='title-inp'></input>
           </div>
 
-          <h4>User Id : {props.album.userId}</h4>
+          <h3>User Id : {props.album.userId}</h3>
           <div className='inp-container'>
             Enter New UserId :
             <input type="number" id='userid-inp'></input>
