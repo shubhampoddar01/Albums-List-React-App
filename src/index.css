@@ -10,10 +10,7 @@ body{
   /* background-color: #F2F2F2; */
   background-image: url(./wood-411643_960_720.jpg);
 }
-/* a{
-  color: unset;
-  text-decoration: none;
-} */
+
 input{
   outline: none;
   border: none;
@@ -42,7 +39,7 @@ button{
   position: fixed;
 }
 .navbar h2{
-  background-color: teal;
+  background-color: #478AC9;
   width: fit-content;
   padding: 2px;
 }
@@ -54,20 +51,20 @@ button{
 }
 .brand-last-half{
   background-color: #2f2828;
-  color: teal;
+  color: #478AC9;
   margin: 0 2px;
 
 }
 .navbar button{
   background-color: transparent;
-  color: teal;
-  border: 2px solid teal;
+  color: #478AC9;
+  border: 2px solid #478AC9;
   padding: 5px 10px;
   border-radius: 10px;
   cursor: pointer;
 }
 .navbar button:hover{
-  background-color: teal;
+  background-color: #478AC9;
   color: white;
 }
 

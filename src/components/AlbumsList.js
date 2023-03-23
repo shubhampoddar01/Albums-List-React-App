@@ -6,7 +6,7 @@ import Navbar from './Navbar'
 const AlbumsList = (props) => {
   return (
     <>
-      {/* Navbar */}
+  
       <Navbar page="Add Album" path="/add-album" />
 
       <div className='albums-list'>

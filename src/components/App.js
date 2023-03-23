@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { Routes, Route } from "react-router-dom";
 import AddAlbum from './AddAlbum';
 import AlbumsList from './AlbumsList';
-// import Navbar from './Navbar'
 import UpdateAlbum from './UpdateAlbum';
 
 export default class App extends Component {
@@ -14,7 +13,7 @@ export default class App extends Component {
     }
   }
 
-  // this function call first time when app render
+  // this function call first time when app gets render
   componentDidMount = async () => {
     const albums = await fetch('https://jsonplaceholder.typicode.com/albums')
       .then((response) => response.json())
@@ -24,18 +23,9 @@ export default class App extends Component {
     })
   }
 
-  // setLastId=()=>{
-  //   const length=this.state.albums.length;
-  //   const lastId=this.state.albums[length-1].id;
-  //   this.setState({
-  //     lastId:lastId
-  //   })
-  //   console.log(this.state.lastId);
-  // }
-
-
   //delete album function-----------------------------------------------------------------------------------
-  //this function take album id from albums list and then delete the album from albums list and update state
+  //this function take album id from albums list and then delete the album from albums list and gets update 
+
   deleteAlbumFromList = (id) => {
     fetch(`https://jsonplaceholder.typicode.com/albums/${id}`, { method: 'DELETE', })
     const newAlbums = this.state.albums.filter((album) => album.id !== id);

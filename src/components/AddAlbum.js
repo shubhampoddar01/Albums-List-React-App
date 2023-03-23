@@ -4,7 +4,7 @@ import Navbar from './Navbar';
 
 const AddAlbum = (props) => {
 
-  //this function get all the input like userid and title then call add albumm function for add it on the album list
+  //this function get all the input like userid and title then call add albumm function to add it on the album list
   const getAlbumFormData = () => {
     const userId = document.getElementById('aaform-userid-inp').value;
     const title = document.getElementById('aaform-title-inp').value;
