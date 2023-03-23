@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Albums-List-React-App/static/css/main.ff21f81c.css",
+    "main.js": "/Albums-List-React-App/static/js/main.975d45a2.js",
+    "static/media/wood-411643_960_720.jpg": "/Albums-List-React-App/static/media/wood-411643_960_720.79a4e673fc12a616bb9e.jpg",
+    "index.html": "/Albums-List-React-App/index.html",
+    "main.ff21f81c.css.map": "/Albums-List-React-App/static/css/main.ff21f81c.css.map",
+    "main.975d45a2.js.map": "/Albums-List-React-App/static/js/main.975d45a2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff21f81c.css",
+    "static/js/main.975d45a2.js"
+  ]
+}
